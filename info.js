@@ -1,3 +1,38 @@
+title, 
+name, 
+current profession,
+how long ive been working current profession,
+core skills 1
+2
+3, 
+hobby 1
+2
+3,
+my specialty, 
+technical skills 1 
+2 
+3
+4,
+tool 1 
+2 
+3 
+4, 
+work experiance 1 company name, 
+work experiance 1 posision, 
+work experiance 1 description,
+work experiance 1 years worked,
+work experiance 2 company name, 
+work experiance 2 posision, 
+work experiance 2 descriptn, 
+work experiance 2 years worked, 
+work experiance 3 company name, 
+work experiance 3 posision, 
+work experiance 3 descriptio, 
+work experiance 3 years workedn,
+
+
+
+
 const businessInfo = {
   "name": "The Business Name",
   "number": "(123) 456-7890",
