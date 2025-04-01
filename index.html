@@ -3,357 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <div class="container nav-container">
-            <div class="logo">YourName</div>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#education">Education</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Header / Hero Section -->
     <header>
-        <div class="container profile-container">
-            <img src="/api/placeholder/400/400" alt="Your Profile Picture" class="profile-pic">
-            <h1>Your Name</h1>
-            <p class="tagline">Professional Title | Specialty | Core Skill</p>
-            <p>Transforming ideas into digital solutions</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
+        <nav>
+            <div id="nav-name">Your Name</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#social">Social</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Hello! I'm <span class="highlight">Your Name</span>, a passionate [Your Profession] with [X years] of experience specializing in [Your Specialty]. I enjoy tackling complex problems and turning them into simple, elegant solutions.</p>
-                    
-                    <p>My expertise lies in [Core Skill 1], [Core Skill 2], and [Core Skill 3]. I'm driven by the desire to create impactful digital experiences that solve real-world problems.</p>
-                    
-                    <p>When I'm not coding, you can find me [Hobby 1], [Hobby 2], or [Hobby 3]. These activities keep me inspired and bring fresh perspectives to my professional work.</p>
-                    
-                    <a href="#contact" class="cta-button">Get In Touch</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <main>
+        <section id="hero">
+            <h1 id="hero-title">Welcome to My Space</h1>
+            <p id="hero-subtitle">18-Year-Old Digital Enthusiast</p>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2 class="section-title">My Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Technical Skills</h3>
-                    <ul class="skill-list">
-                        <li class="skill-item">
-                            <span class="skill-name">Skill 1</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">Skill 2</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">Skill 3</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">Skill 4</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Tools & Technologies</h3>
-                    <ul class="skill-list">
-                        <li class="skill-item">
-                            <span class="skill-name">Tool 1</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">Tool 2</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">Tool 3</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">Tool 4</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Soft Skills</h3>
-                    <ul class="skill-list">
-                        <li class="skill-item">
-                            <span class="skill-name">Communication</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">Teamwork</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">Problem Solving</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">Time Management</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+        <section id="about">
+            <h2 id="about-title">About Me</h2>
+            <p id="about-text">I'm an 18-year-old passionate about technology and digital media. While I'm just starting my journey, I'm excited to learn and grow in the digital world.</p>
+        </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="container">
-            <h2 class="section-title">Work Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item left">
-                    <div class="timeline-content">
-                        <div class="timeline-date">2022 - Present</div>
-                        <div class="timeline-company">Company Name</div>
-                        <div class="timeline-position">Senior Position</div>
-                        <p>Brief description of your responsibilities and achievements. Highlight key projects and their impact. Focus on quantifiable results and skills utilized.</p>
-                    </div>
-                </div>
-                
-                <div class="timeline-item right">
-                    <div class="timeline-content">
-                        <div class="timeline-date">2019 - 2022</div>
-                        <div class="timeline-company">Previous Company</div>
-                        <div class="timeline-position">Mid-level Position</div>
-                        <p>Brief description of your responsibilities and achievements. Highlight key projects and their impact. Focus on quantifiable results and skills utilized.</p>
-                    </div>
-                </div>
-                
-                <div class="timeline-item left">
-                    <div class="timeline-content">
-                        <div class="timeline-date">2017 - 2019</div>
-                        <div class="timeline-company">First Company</div>
-                        <div class="timeline-position">Entry-level Position</div>
-                        <p>Brief description of your responsibilities and achievements. Highlight key projects and their impact. Focus on quantifiable results and skills utilized.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2 class="section-title">Recent Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="/api/placeholder/400/200" alt="Project 1" class="project-image">
-                    <div class="project-info">
-                        <h3 class="project-title">Project Name 1</h3>
-                        <p>Brief description of the project, its purpose, and your role in it. Highlight key technologies and outcomes.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">HTML</span>
-                            <span class="project-tag">CSS</span>
-                            <span class="project-tag">JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="demo-link">Live Demo</a>
-                            <a href="#" class="code-link">View Code</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <img src="/api/placeholder/400/200" alt="Project 2" class="project-image">
-                    <div class="project-info">
-                        <h3 class="project-title">Project Name 2</h3>
-                        <p>Brief description of the project, its purpose, and your role in it. Highlight key technologies and outcomes.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">React</span>
-                            <span class="project-tag">Node.js</span>
-                            <span class="project-tag">MongoDB</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="demo-link">Live Demo</a>
-                            <a href="#" class="code-link">View Code</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <img src="/api/placeholder/400/200" alt="Project 3" class="project-image">
-                    <div class="project-info">
-                        <h3 class="project-title">Project Name 3</h3>
-                        <p>Brief description of the project, its purpose, and your role in it. Highlight key technologies and outcomes.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Python</span>
-                            <span class="project-tag">Django</span>
-                            <span class="project-tag">PostgreSQL</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="demo-link">Live Demo</a>
-                            <a href="#" class="code-link">View Code</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-container">
-                <div class="education-item">
-                    <div class="education-degree">
-                      <div class="education-degree">Master's Degree in Your Field</div>
-                    <div class="education-school">University Name</div>
-                    <div class="education-date">2016 - 2018</div>
-                    <p>Brief description of your studies, relevant coursework, achievements, and any honors or awards received during your education.</p>
-                </div>
-                
-                <div class="education-item">
-                    <div class="education-degree">Bachelor's Degree in Your Field</div>
-                    <div class="education-school">University Name</div>
-                    <div class="education-date">2012 - 2016</div>
-                    <p>Brief description of your studies, relevant coursework, achievements, and any honors or awards received during your education.</p>
-                </div>
-                
-                <div class="education-item">
-                    <div class="education-degree">Relevant Certifications</div>
-                    <div class="education-school">Certification Provider</div>
-                    <div class="education-date">2019, 2021</div>
-                    <ul>
-                        <li>Certification Name 1 - Brief description if necessary</li>
-                        <li>Certification Name 2 - Brief description if necessary</li>
-                        <li>Certification Name 3 - Brief description if necessary</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials">
-        <div class="container">
-            <h2 class="section-title">What People Say</h2>
-            <div class="testimonials-slider">
-                <div class="testimonial-card">
-                    <div class="testimonial-text">
-                        Your name is an exceptional professional who consistently delivers high-quality work. Their attention to detail and problem-solving abilities make them a valuable asset to any team.
-                    </div>
-                    <div class="testimonial-author">Person Name</div>
-                    <div class="testimonial-position">Position, Company</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-form">
-                <form id="contact-form">
-                    <div class="form-group">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" id="name" name="name" class="form-input" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" id="email" name="email" class="form-input" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="subject" class="form-label">Subject</label>
-                        <input type="text" id="subject" name="subject" class="form-input" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea id="message" name="message" class="form-textarea" required></textarea>
-                    </div>
-                    
-                    <button type="submit" class="submit-button">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-links">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#education">Education</a>
-                <a href="#contact">Contact</a>
-            </div>
+        <section id="social">
+            <h2 id="social-title">Connect With Me</h2>
             <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
+                <a href="#" id="instagram-link" class="social-button">Instagram</a>
+                <a href="#" id="twitter-link" class="social-button">Twitter</a>
+                <a href="#" id="linkedin-link" class="social-button">LinkedIn</a>
             </div>
-            <div class="copyright">
-                &copy; <span id="current-year">2025</span> Your Name. All Rights Reserved.
-            </div>
-        </div>
+        </section>
+
+        <section id="contact">
+            <h2 id="contact-title">Get in Touch</h2>
+            <p id="contact-text">Feel free to reach out to me through any of my social media platforms!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-text">© 2024 Your Name. All rights reserved.</p>
     </footer>
+
     <script src="script.js"></script>
-    <script src="info.js"></script>
 </body>
-</html>
+</html> 
