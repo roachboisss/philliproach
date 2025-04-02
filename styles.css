@@ -126,26 +126,19 @@ section.visible {
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
 }
 
 .contact-item {
-    padding: 1.5rem;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.contact-item:hover {
-    transform: translateY(-5px);
+    margin-bottom: 0.5rem;
 }
 
 .contact-item h3 {
     color: #2c3e50;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
     font-size: 1.2rem;
 }
 
@@ -186,4 +179,4 @@ footer {
     .contact-info {
         padding: 0 1rem;
     }
-} 
+}
