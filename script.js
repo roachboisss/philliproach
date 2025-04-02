@@ -34,22 +34,4 @@ document.addEventListener('DOMContentLoaded', function() {
     sections.forEach(section => {
         observer.observe(section);
     });
-
-    const contactForm = document.querySelector('.contact-form');
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        const formData = new FormData(this);
-        const formObject = {};
-        formData.forEach((value, key) => {
-            formObject[key] = value;
-        });
-
-        const confirmMessage = `Please confirm your information:\n\nName: ${formObject.name}\nEmail: ${formObject.email}\nPhone: ${formObject.phone}\nMessage: ${formObject.message}`;
-        
-        if (confirm(confirmMessage)) {
-            alert('Thank you for your message! We will get back to you soon.');
-            this.reset();
-        }
-    });
 }); 
