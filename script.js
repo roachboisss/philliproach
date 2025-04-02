@@ -31,6 +31,16 @@ document.addEventListener('DOMContentLoaded', function() {
         threshold: 0.1
     });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.querySelector(".menu-button");
+    const navMenu = document.querySelector("nav ul");
+
+    menuButton.addEventListener("click", function () {
+        navMenu.classList.toggle("show");
+    });
+});
+
+
     sections.forEach(section => {
         observer.observe(section);
     });
