@@ -34,3 +34,11 @@ document.addEventListener('DOMContentLoaded', function() {
     sections.forEach(section => {
         observer.observe(section);
     });
+
+    const menuButton = document.querySelector(".menu-button");
+    const navMenu = document.querySelector("nav ul");
+
+    menuButton.addEventListener("click", function() {
+        navMenu.classList.toggle("show");
+    });
+});
