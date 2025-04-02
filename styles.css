@@ -121,10 +121,12 @@ section.visible {
 #education h2 {
     color: #2c3e50;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
     position: relative;
     display: inline-block;
     font-family: "Times New Roman", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #education h2::after {
@@ -133,7 +135,7 @@ section.visible {
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 80px;
+    width: 100px;
     height: 3px;
     background: linear-gradient(to right, #3498db, #2c3e50);
 }
@@ -141,7 +143,7 @@ section.visible {
 .education-info {
     max-width: 700px;
     margin: 0 auto;
-    padding: 2.5rem;
+    padding: 3rem;
     background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 15px rgba(0,0,0,0.05);
@@ -155,7 +157,7 @@ section.visible {
     top: 0;
     left: 0;
     right: 0;
-    height: 6px;
+    height: 8px;
     background: linear-gradient(to right, #3498db, #2c3e50);
     border-radius: 8px 8px 0 0;
 }
@@ -171,24 +173,36 @@ section.visible {
 
 .education-item h3 {
     color: #2c3e50;
-    font-size: 1.6rem;
-    margin-bottom: 0.75rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
     font-weight: 600;
     font-family: "Times New Roman", serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .education-item p {
     color: #555;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 0.5rem;
     font-family: "Times New Roman", serif;
+    line-height: 1.8;
+}
+
+.education-item small {
+    color: #666;
+    font-size: 1rem;
+    display: block;
+    margin-top: 0.25rem;
 }
 
 .education-item .year {
     color: #3498db;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "Times New Roman", serif;
+    margin-top: 1rem;
+    display: block;
 }
 
 .social-links {
@@ -217,7 +231,7 @@ section.visible {
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 0.5rem;
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
@@ -268,6 +282,14 @@ footer {
 
     .education-info {
         padding: 1.5rem;
+    }
+
+    .education-item h3 {
+        font-size: 1.5rem;
+    }
+
+    .education-item p {
+        font-size: 1.1rem;
     }
 
     .contact-info {
